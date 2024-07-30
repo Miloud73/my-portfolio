@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <title>DevMiloud Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="./imgs/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggel navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- intro to section -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi , I am <strong class="strong__title">Miloud Bendjedda</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Full-Stack Dev</p>
+      <img
+        src="./imgs/miloud.jpg"
+        alt="a pic of miloud Bendjedda"
+        class="intro__img"
+      />
+    </section>
+    <!-- My services -->
+    <section class="my__services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            I excel at creating visually appealing and highly functional
+            websites. Using HTML, CSS, JavaScript, Next.js, and React.js, I
+            build responsive, user-friendly interfaces. I focus on delivering
+            efficient and effective solutions, from simple landing pages to
+            complex web applications, turning your vision into reality.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Website Development with PHP, SQL, and Laravel</h3>
+          <p>
+            Using PHP, SQL, and Laravel, I develop robust and dynamic websites
+            tailored to your needs. My deep understanding of these technologies
+            ensures secure, efficient, and scalable solutions. With Laravel, I
+            create clean, maintainable code for long-term reliability. From
+            custom CMS to interactive web portals, I deliver projects aligned
+            with your business goals
+          </p>
+        </div>
+        <div class="service">
+          <h3>Custom Web Solutions</h3>
+          <p>
+            In addition to standard web development, I provide custom solutions
+            tailored to your needs. With expertise in UML, XML, MySQL, Java, and
+            Python, I handle diverse projects efficiently. Whether integrating
+            services, developing applications, or optimizing systems, I deliver
+            innovative solutions to enhance your digital presence.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am ?</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & developer based out of Algeria
+      </p>
+      <div class="about-me__body">
+        <p>
+          I am Miloud Bendjedda, a passionate designer and developer from Sidi
+          Bel Abbes, Algeria. With a Bachelor's degree in Computer Science and a
+          strong foundation in web technologies, I specialize in creating
+          visually appealing and highly functional websites. My expertise
+          includes HTML, CSS, JavaScript, PHP, SQL, and frameworks like Next.js,
+          React.js, and Laravel. I am dedicated to delivering efficient and
+          innovative solutions that bring your vision to life. Whether it's a
+          simple landing page or a complex web application, I strive to ensure
+          every project is both beautiful and effective.
+        </p>
+        <p></p>
+      </div>
+      <img
+        src="./imgs/miloud 2.jpg"
+        alt="a pic of Miloud Bendjedda 2"
+        class="about-me__img"
+      />
+    </section>
+    <!-- my Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img src="./imgs/admin-side.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./imgs/healthyBite.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./imgs/m-k vehi.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./imgs/signup.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:contacte.miloud@gmail.com" class="footer__link"
+        >miloud.bendjedda.0201@univ-sba.dz</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/miloud-bendjedda73/"
+            class="social-list__link"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.facebook.com/miLoud73B0"
+            class="social-list__link"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/Miloud73" class="social-list__link">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
